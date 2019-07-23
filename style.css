@@ -112,13 +112,13 @@
 		text-align: center;
 	}
 	.suslogoContainer{
-		background: linear-gradient(135deg, #bfaeb1 2%,#e6b2c1 25%,#f55bc8 56%,#c994ea 99%);
-    	margin-bottom: 20px;
+		
+    	margin-top: 20px;
 	}
 	.suslogo{
-		margin-left: 20px;
+		
 		width: 30%;
-		background-color: white;
+		
 	}
 	.download-icon-images{
 		height: 100%;

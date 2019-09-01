@@ -60,10 +60,12 @@
 	.main-content-1-head{
 		font-size: 2rem; 
 		font-weight: 400;
+		font-family: Asap-Bold;
 	}
 
 	.main-content-2-head{
 		color: #7e0484;
+		font-family: Asap-Bold;
 	}
 
 	.menu-description{
@@ -174,7 +176,7 @@
 			width: 100%;
 			padding-bottom: 5%;
 			font-weight: 600;
-
+			font-family: Asap-Bold;
 		}
 		.data-stats-icon{
 			width: 83%;
@@ -248,6 +250,7 @@
 		width: 93%;
     margin: auto;
     font-weight: 600;
+    font-family: Asap-Bold;
 	}
 
 .body-custom{
@@ -289,7 +292,13 @@
 			padding: 41px 0px 0px 14px !important; 	
 		}
 		.md-ul{
-			padding-left: 0px;
+			padding: 0px;
+			word-spacing: -2px;
+		}
+		.md-ul-moreSmall{
+			list-style-type:none;
+			padding: 0px;
+			word-spacing: -1px;
 		}
 		.p-b-content{
 			width: 97% !important;
@@ -318,6 +327,7 @@
 		}
 		.main-head, .main-head1{
 			width: 100% !important;
+			font-family: Asap-Bold;
 		}
 		.main-head1{
 			margin-bottom: 13% !important;

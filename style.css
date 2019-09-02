@@ -82,7 +82,7 @@
 		}
 	.textAlign{
 		text-align: justify;
-		word-break: break-all;
+		/*word-break: break-all;*/
 	}
 	.md-li-bar{
 		position: absolute;
@@ -222,7 +222,7 @@
 		}
 		.textStyle{
 			font-family: SourceSansPro-Regular;
-			font-size: 25px;
+			font-size: 22px;
 			color: #191919;
 			letter-spacing: 0.49px;
 			line-height: 35px;
@@ -306,9 +306,9 @@
 			padding: 0px;
 			word-spacing: -1px;
 		}
-		/*.p-b-content{
+		.p-b-content{
 			width: 97% !important;
-		}*/
+		}
 		.download-icon-row{
 			width: 35%;
     		margin: auto;
@@ -323,7 +323,7 @@
 			float: none !important;
 		}
 		.p-b-content-1{
-			width: 100% !important;
+			width: 104% !important;
 		}
 		.pbox-content{
 			padding-bottom: 0% !important;

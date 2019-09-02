@@ -75,8 +75,14 @@
 		list-style-type:none;
 		padding-left: 0px;
 	}
+	.md-ul-moreSmall{
+			list-style-type:none;
+			padding: 0px;
+			word-spacing: -1px;
+		}
 	.textAlign{
 		text-align: justify;
+		word-break: break-all;
 	}
 	.md-li-bar{
 		position: absolute;

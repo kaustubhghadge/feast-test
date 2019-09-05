@@ -222,7 +222,7 @@
 		}
 		.textStyle{
 			font-family: SourceSansPro-Regular;
-			font-size: 22px;
+			font-size: 21px;
 			color: #191919;
 			letter-spacing: 0.49px;
 			line-height: 35px;
@@ -261,14 +261,58 @@
 
 .body-custom{
 		font-family: SourceSansPro-Regular;
-		font-size: 25px;
+		font-size: 21px;
 		color: #191919;
 		letter-spacing: 0.49px;
 		line-height: 35px;
 	}
 
+		@media(min-width: 319px) and (max-width: 330px){
+			.boxInP{
+				padding: 0 10px 0 32px !important;
+				text-align: left !important;
+			}
+		}
+
+		@media(min-width: 331px) and (max-width: 369px){
+			.md-ul, .detailWspa {
+				word-spacing: -0.14em !important;
+			}
+
+			.pBoxLast{
+				
+				text-align: left !important;
+			}
+		}	
+
+
+		@media(min-width: 370px) and (max-width: 399px){
+			.boxInP{
+				padding: 0px 8px 0 6px;
+				text-align: left !important;
+			}
+		}
+
+
+		@media (min-width: 400px) and (max-width: 475px){
+
+				.boxInP{
+			    word-spacing: -.1em;
+			}
+			.md-ul{
+				padding: 0px;
+				word-spacing: 5px;
+			}
+			.md-ul-moreSmall{
+				list-style-type:none;
+				padding: 0px;
+				word-spacing: -1px;
+			}	
+		}
 
 		@media (max-width: 575px)  {
+
+			
 		.logo-t{
 			padding: 10px !important;
 		    height: 86px !important;
@@ -571,6 +615,15 @@
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
+
+  		.textAlign{
+  			text-align: left !important;
+  		}
+
+  		.p-b-content-1{
+  			width: 87% !important;
+  		}
+
 		.p-subhead{
 			font-weight: 100;
     		width: 68%;
